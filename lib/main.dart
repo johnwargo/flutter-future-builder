@@ -5,8 +5,6 @@ import './pages/home.dart';
 const APP_NAME = 'Flutter Delayed Start';
 
 void main() {
-  // Have to call this otherwise we get binding errors
-//  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 

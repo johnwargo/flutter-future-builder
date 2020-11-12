@@ -20,7 +20,7 @@ class Config {
     // Get the configuration data from persistent storage
     print('Config: loadData()');
     // wait a couple of seconds
-    await Future.delayed(const Duration(seconds: 2), () {});
+    await Future.delayed(const Duration(seconds: 4), () {});
     // initialize the preferences object
     prefs = await SharedPreferences.getInstance();
     // grab the device address from preferences
